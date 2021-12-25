@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Todo app</title>
+		<!-- Load Javascript -->
+		<script src="Script.js" defer></script>
+		<!-- Load CSS -->
+		<link rel="stylesheet" href="Style.css" />
+	</head>
+	<body>
+		<header class="dark">
+			<div class="title-theme">
+				<h1 class="app-title">Todo</h1>
+				<a href="#" class="switch-theme-btn"
+					><img src="./images/icon-sun.svg"
+				/></a>
+			</div>
+			<form action="#" class="dark">
+				<input type="checkbox" />
+				<input type="text" placeholder="Create a new todo..." />
+			</form>
+		</header>
+		<main>
+			<div class="task-wrapper dark">
+				<ul class="task-list"></ul>
+				<div class="task-action-info dark">
+					<span> 5 items left </span>
+					<ul class="task-nav dark">
+						<li><a href="#" class="selected">All</a></li>
+						<li><a href="#">Active</a></li>
+						<li><a href="#">Completed</a></li>
+					</ul>
+					<span>Clear Completed</span>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Drag and drop to reorder list</p>
+		</footer>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://www.frontendmentor.io/profile/eklemis"
+				>Eklemis Santo Ndun</a
+			>.
+		</div>
+	</body>
+</html>
