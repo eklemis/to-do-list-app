@@ -117,7 +117,7 @@ class TodoList {
                     <span class="check checked"></span>
                     <p class="task-name ${className}">${item.taskName}</p>
                 </div>
-                <a href="#" class="task-remove">
+                <a href="#" class="task-remove" aria-label="remove this task">
                     <img src="./images/icon-cross.svg" alt="" />
                 </a>
                 `;
@@ -127,7 +127,7 @@ class TodoList {
                     <span class="check"></span>
                     <p class="task-name ${className}">${item.taskName}</p>
                 </div>
-                <a href="#" class="task-remove">
+                <a href="#" class="task-remove" aria-label="remove this task">
                     <img src="./images/icon-cross.svg" alt="" />
                 </a>                
                 `;

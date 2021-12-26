@@ -323,6 +323,9 @@ footer p {
 		width: auto;
 		top: 0px;
 	}
+	ul.task-nav.light {
+		box-shadow: none;
+	}
 	div.task-action-info {
 		padding-left: 25px;
 		padding-right: 25px;
